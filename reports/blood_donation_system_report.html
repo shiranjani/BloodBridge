@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blood Donation System Project Report</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 22mm 18mm 20mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #171717;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12.5pt;
+      line-height: 1.55;
+      background: #ffffff;
+    }
+
+    .page {
+      min-height: 252mm;
+      page-break-after: always;
+      position: relative;
+    }
+
+    .page:last-child {
+      page-break-after: auto;
+    }
+
+    .cover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 2px solid #9b111e;
+      padding: 28mm 18mm;
+    }
+
+    .cover h1 {
+      color: #9b111e;
+      font-size: 25pt;
+      line-height: 1.15;
+      margin: 12mm 0 8mm;
+      text-transform: uppercase;
+    }
+
+    .cover h2 {
+      font-size: 16pt;
+      margin: 0 0 10mm;
+      text-transform: uppercase;
+    }
+
+    .cover .drop {
+      width: 68px;
+      height: 92px;
+      background: #c5162e;
+      border-radius: 58% 58% 58% 0;
+      transform: rotate(-45deg);
+      margin-bottom: 12mm;
+    }
+
+    .cover p {
+      margin: 2.2mm 0;
+      font-size: 13.5pt;
+    }
+
+    .cover .submitted {
+      margin-top: 16mm;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10mm;
+      text-align: left;
+    }
+
+    h1.chapter-title {
+      color: #9b111e;
+      font-size: 20pt;
+      margin: 0 0 8mm;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: #9b111e;
+      font-size: 15pt;
+      margin: 7mm 0 2.5mm;
+    }
+
+    h3 {
+      color: #333333;
+      font-size: 13.5pt;
+      margin: 5mm 0 2mm;
+    }
+
+    p {
+      margin: 0 0 3.8mm;
+      text-align: justify;
+    }
+
+    ul, ol {
+      margin: 2mm 0 4mm 8mm;
+      padding-left: 7mm;
+    }
+
+    li {
+      margin-bottom: 1.8mm;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 4mm 0 7mm;
+      font-size: 11.5pt;
+    }
+
+    th, td {
+      border: 1px solid #777777;
+      padding: 2.2mm 2.8mm;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f4d7dc;
+      color: #64101a;
+      text-align: left;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .signature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20mm;
+      margin-top: 24mm;
+    }
+
+    .signature {
+      border-top: 1px solid #222222;
+      padding-top: 2mm;
+      text-align: center;
+    }
+
+    .toc table td {
+      border: 0;
+      border-bottom: 1px dotted #999999;
+      padding: 1.7mm 0;
+    }
+
+    .toc .page-no {
+      width: 22mm;
+      text-align: right;
+    }
+
+    .diagram {
+      border: 1px solid #9b111e;
+      padding: 6mm;
+      margin: 4mm 0 7mm;
+      text-align: center;
+      background: #fff7f8;
+      font-family: Arial, sans-serif;
+      font-size: 10.5pt;
+      page-break-inside: avoid;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3mm;
+      align-items: center;
+    }
+
+    .box {
+      border: 1px solid #b51c32;
+      border-radius: 4px;
+      padding: 3mm;
+      background: #ffffff;
+      min-height: 14mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .arrow::after {
+      content: "->";
+      color: #9b111e;
+      font-weight: bold;
+      display: block;
+      margin-top: 2mm;
+    }
+
+    .small {
+      font-size: 11pt;
+    }
+
+    .code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10.5pt;
+      background: #f6f6f6;
+      border: 1px solid #dddddd;
+      padding: 3mm;
+      white-space: pre-wrap;
+      margin: 3mm 0 6mm;
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div class="drop"></div>
+    <h2>Project Report</h2>
+    <h1>Blood Donation System</h1>
+    <p>Submitted in partial fulfillment of the requirements for the project work</p>
+    <p><strong>Project Type:</strong> Web Based Blood Donation Management System</p>
+    <div class="submitted">
+      <div>
+        <p><strong>Submitted By</strong></p>
+        <p>Name: __________________________</p>
+        <p>Registration No: ________________</p>
+        <p>Department: _____________________</p>
+      </div>
+      <div>
+        <p><strong>Submitted To</strong></p>
+        <p>Lecturer/Supervisor: _____________</p>
+        <p>Institution: _____________________</p>
+        <p>Academic Year: 2026</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Certificate</h1>
+    <p>
+      This is to certify that the project report titled <strong>"Blood Donation System"</strong>
+      is a bonafide work carried out as part of the academic project requirement. The system
+      has been developed using React, Express.js, Node.js and MySQL to support donor
+      registration, blood request handling, donor matching, inventory tracking and support
+      communication.
+    </p>
+    <p>
+      The report explains the analysis, design, implementation, testing and conclusion of
+      the project. The work presented in this document is based on the project files and
+      implementation available in the Blood Donation System application.
+    </p>
+    <div class="signature-grid">
+      <div class="signature">Project Guide / Supervisor</div>
+      <div class="signature">Head of Department</div>
+    </div>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Declaration</h1>
+    <p>
+      I hereby declare that this project report entitled <strong>"Blood Donation System"</strong>
+      has been prepared by me based on the software project developed for managing blood
+      donation related activities. The information, diagrams and explanations included in
+      this report are written for academic documentation purposes.
+    </p>
+    <p>
+      The project aims to provide a simple and organized platform where users can request
+      blood, donors can manage donation activity, and administrators can coordinate donors,
+      requests, inventory and support messages.
+    </p>
+    <div class="signature-grid">
+      <div class="signature">Student Signature</div>
+      <div class="signature">Date</div>
+    </div>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Acknowledgement</h1>
+    <p>
+      I would like to express my sincere gratitude to my project guide, teachers and
+      institution for providing guidance and encouragement throughout the development of
+      this project. Their support helped in understanding the real-life importance of blood
+      donation systems and in converting that idea into a working web application.
+    </p>
+    <p>
+      I also thank my friends and family members for their motivation during the project
+      development period. This project improved my practical knowledge of frontend
+      development, backend API creation, database handling and project documentation.
+    </p>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Abstract</h1>
+    <p>
+      Blood donation is a critical healthcare support activity. In emergency situations,
+      patients and hospitals often need to find suitable blood donors quickly. Manual donor
+      records, phone-based coordination and unorganized request tracking can delay this
+      process. The Blood Donation System is developed to reduce these difficulties by
+      providing a web-based platform for donors, users and administrators.
+    </p>
+    <p>
+      The system allows users to register, login, request blood, track request status and
+      search for donors. Donors can update their profile, view assigned requests, respond
+      to notifications and check donation activity. Administrators can manage donor records,
+      approve and monitor blood requests, notify matching donors, maintain blood inventory,
+      view expiry alerts, list user accounts and handle chat support conversations.
+    </p>
+    <p>
+      The project uses React for the frontend interface, Express.js and Node.js for backend
+      APIs, and MySQL for persistent data storage. Passwords are stored using salted hashes.
+      The system also includes validation, role-based navigation and automatic expiry status
+      handling for blood inventory.
+    </p>
+  </section>
+
+  <section class="page toc">
+    <h1 class="chapter-title">Table of Contents</h1>
+    <table>
+      <tr><td>Certificate</td><td class="page-no">i</td></tr>
+      <tr><td>Declaration</td><td class="page-no">ii</td></tr>
+      <tr><td>Acknowledgement</td><td class="page-no">iii</td></tr>
+      <tr><td>Abstract</td><td class="page-no">iv</td></tr>
+      <tr><td>Chapter 1 - Introduction</td><td class="page-no">1</td></tr>
+      <tr><td>1.1 Introduction</td><td class="page-no">1</td></tr>
+      <tr><td>1.2 Problem Statement</td><td class="page-no">2</td></tr>
+      <tr><td>1.3 Objectives</td><td class="page-no">2</td></tr>
+      <tr><td>1.4 Scope of the Project</td><td class="page-no">3</td></tr>
+      <tr><td>Chapter 2 - Literature Review and Existing System</td><td class="page-no">4</td></tr>
+      <tr><td>Chapter 3 - System Analysis</td><td class="page-no">7</td></tr>
+      <tr><td>Chapter 4 - System Design</td><td class="page-no">12</td></tr>
+      <tr><td>Chapter 5 - Implementation</td><td class="page-no">18</td></tr>
+      <tr><td>Chapter 6 - Testing</td><td class="page-no">25</td></tr>
+      <tr><td>Chapter 7 - Conclusion and Future Enhancement</td><td class="page-no">29</td></tr>
+      <tr><td>References</td><td class="page-no">31</td></tr>
+      <tr><td>Appendix</td><td class="page-no">32</td></tr>
+    </table>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 1<br>Introduction</h1>
+    <h2>1.1 Introduction</h2>
+    <p>
+      Blood is an essential medical resource required during surgeries, accidents,
+      childbirth complications, cancer treatments and many emergency cases. A successful
+      blood donation process depends on the availability of donors, accurate donor details,
+      quick communication and proper tracking of requests.
+    </p>
+    <p>
+      The Blood Donation System is a web application named Blood Bridge. It connects
+      patients, normal users, donors, hospitals and administrators through a single
+      organized platform. The application provides public pages, login and registration,
+      donor search, blood request forms, admin dashboards and support chat features.
+    </p>
+
+    <h2>1.2 Problem Statement</h2>
+    <p>
+      In many situations, blood donor information is maintained manually or through
+      scattered contact lists. This creates problems such as outdated donor records,
+      delayed donor matching, lack of request status visibility, poor inventory tracking
+      and difficulty in contacting the responsible administrator. These problems become
+      serious during emergency blood requirements.
+    </p>
+
+    <h2>1.3 Objectives</h2>
+    <ul>
+      <li>To develop a web-based platform for managing donors, users and administrators.</li>
+      <li>To allow users and donors to submit normal or emergency blood requests.</li>
+      <li>To help administrators match requests with suitable donors based on blood group.</li>
+      <li>To maintain blood inventory with units, hospitals, status and expiry dates.</li>
+      <li>To provide notifications for donor responses and inventory expiry alerts.</li>
+      <li>To provide chat support between users/donors and administrators.</li>
+    </ul>
+
+    <h2>1.4 Scope of the Project</h2>
+    <p>
+      The scope of this project includes user registration, donor registration, role-based
+      login, donor search, blood request submission, admin request management, donor
+      notification handling, blood inventory maintenance, expiry alerts, profile updates,
+      password changes and support conversations.
+    </p>
+
+    <h2>1.5 Technologies Used</h2>
+    <table>
+      <tr><th>Layer</th><th>Technology</th><th>Purpose</th></tr>
+      <tr><td>Frontend</td><td>React, React Icons, CSS</td><td>User interface and dashboards</td></tr>
+      <tr><td>Backend</td><td>Node.js, Express.js</td><td>REST API and business logic</td></tr>
+      <tr><td>Database</td><td>MySQL</td><td>Persistent storage</td></tr>
+      <tr><td>Security</td><td>Crypto PBKDF2 hashing</td><td>Password hashing with salt</td></tr>
+      <tr><td>Configuration</td><td>dotenv</td><td>Environment based settings</td></tr>
+    </table>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 2<br>Literature Review and Existing System</h1>
+    <h2>2.1 Literature Review</h2>
+    <p>
+      Healthcare management systems are designed to improve speed, accuracy and reliability
+      in medical services. Blood donation management is one of the important areas where
+      digital systems can reduce delays. A computerized system can store donor details,
+      search donors by blood group and location, track requests and notify responsible
+      users.
+    </p>
+    <p>
+      Modern web applications usually use a frontend framework, backend API and relational
+      database. This separation improves maintainability. React helps create reusable
+      components and dashboards, Express.js supports API endpoints and MySQL provides
+      structured storage for donor, request, inventory and account records.
+    </p>
+
+    <h2>2.2 Existing System</h2>
+    <p>
+      In a manual blood donation process, donor details may be stored in notebooks,
+      spreadsheets or phone contacts. When a request arrives, the administrator must
+      manually search for donors and call them individually. Request status may not be
+      visible to the requester, and inventory expiry may be missed if records are not
+      checked regularly.
+    </p>
+
+    <h2>2.3 Disadvantages of Existing System</h2>
+    <ul>
+      <li>Donor records can become outdated or duplicated.</li>
+      <li>Searching donors manually takes more time.</li>
+      <li>Users cannot easily track their request status.</li>
+      <li>Inventory expiry dates are difficult to monitor manually.</li>
+      <li>Communication between donor, user and admin is not centralized.</li>
+      <li>Manual records are less secure and more difficult to back up.</li>
+    </ul>
+
+    <h2>2.4 Proposed System</h2>
+    <p>
+      The proposed Blood Donation System provides an online interface for all major roles.
+      Users can request blood and search donors. Donors can manage profiles and respond to
+      assigned requests. Administrators can create donor accounts, approve requests, notify
+      matching donors, update request progress, maintain blood stock and communicate through
+      chat support.
+    </p>
+
+    <h2>2.5 Advantages of Proposed System</h2>
+    <ul>
+      <li>Centralized MySQL database for donor, user, request and inventory data.</li>
+      <li>Role-based dashboards for admin, donor and user.</li>
+      <li>Faster donor matching using blood group and donor records.</li>
+      <li>Inventory expiry alerts for expired or soon-expiring stock.</li>
+      <li>Secure password storage using salted hash values.</li>
+      <li>Support chat conversation history for user assistance.</li>
+    </ul>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 3<br>System Analysis</h1>
+    <h2>3.1 Requirement Analysis</h2>
+    <p>
+      Requirement analysis identifies what the system must perform and what conditions are
+      required for successful operation. The Blood Donation System has three main user
+      roles: admin, donor and user. Each role has separate permissions and dashboard
+      actions.
+    </p>
+
+    <h2>3.2 Functional Requirements</h2>
+    <table>
+      <tr><th>Module</th><th>Functional Requirement</th></tr>
+      <tr><td>Authentication</td><td>Register users/donors, login accounts, reset password and change password.</td></tr>
+      <tr><td>User Module</td><td>Create blood requests, view request status, find donors, update profile and use support chat.</td></tr>
+      <tr><td>Donor Module</td><td>Maintain donor profile, view notifications, respond to requests and check donation activity.</td></tr>
+      <tr><td>Admin Module</td><td>Manage donors, requests, users, blood inventory, expiry alerts and support inbox.</td></tr>
+      <tr><td>Inventory</td><td>Store blood group, units, hospital, expiry date and stock status.</td></tr>
+      <tr><td>Chat Support</td><td>Create conversations, list messages, reply and close conversations.</td></tr>
+    </table>
+
+    <h2>3.3 Non Functional Requirements</h2>
+    <ul>
+      <li>Usability: The interface should be simple for patients, donors and admins.</li>
+      <li>Reliability: Data should be stored persistently in MySQL.</li>
+      <li>Security: Passwords should not be stored in plain text.</li>
+      <li>Maintainability: Frontend pages, components and backend routes should be separated.</li>
+      <li>Performance: Common data should load through API calls and refresh where needed.</li>
+      <li>Scalability: The structure should support adding more hospitals or notification channels later.</li>
+    </ul>
+
+    <h2>3.4 Hardware Requirements</h2>
+    <table>
+      <tr><th>Component</th><th>Minimum Requirement</th></tr>
+      <tr><td>Processor</td><td>Intel Core i3 or equivalent</td></tr>
+      <tr><td>RAM</td><td>4 GB minimum, 8 GB recommended</td></tr>
+      <tr><td>Storage</td><td>500 MB free space for project and dependencies</td></tr>
+      <tr><td>Network</td><td>Local network or internet connection for deployment</td></tr>
+    </table>
+
+    <h2>3.5 Software Requirements</h2>
+    <table>
+      <tr><th>Software</th><th>Use</th></tr>
+      <tr><td>Node.js and npm</td><td>Run frontend and backend project dependencies</td></tr>
+      <tr><td>MySQL Server</td><td>Database server</td></tr>
+      <tr><td>Web Browser</td><td>Access React application</td></tr>
+      <tr><td>Code Editor</td><td>Edit and maintain project files</td></tr>
+    </table>
+
+    <h2>3.6 Feasibility Study</h2>
+    <p>
+      The project is technically feasible because it uses common open-source web
+      technologies. It is operationally feasible because the modules match real blood
+      donation workflows. It is economically feasible because no expensive proprietary
+      tools are required for development.
+    </p>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 4<br>System Design</h1>
+    <h2>4.1 System Architecture</h2>
+    <p>
+      The system follows a client-server architecture. The React frontend sends requests
+      to the Express backend. The backend validates input, applies business rules and
+      communicates with the MySQL database. API responses are returned as JSON and shown
+      in the user interface.
+    </p>
+    <div class="diagram">
+      <div class="flow">
+        <div class="box arrow">React Frontend<br>Pages and Components</div>
+        <div class="box arrow">Express API<br>Routes and Validation</div>
+        <div class="box arrow">Business Logic<br>Matching and Alerts</div>
+        <div class="box">MySQL Database<br>Persistent Records</div>
+      </div>
+    </div>
+
+    <h2>4.2 User Roles</h2>
+    <table>
+      <tr><th>Role</th><th>Main Responsibilities</th></tr>
+      <tr><td>Admin</td><td>Manage donors, requests, inventory, users, alerts and chat support.</td></tr>
+      <tr><td>Donor</td><td>Maintain donor profile, view assigned requests and respond to notifications.</td></tr>
+      <tr><td>User</td><td>Request blood, track own requests, search donors and contact support.</td></tr>
+      <tr><td>Guest</td><td>View public pages, register, login and start limited support conversation.</td></tr>
+    </table>
+
+    <h2>4.3 Data Flow Diagram</h2>
+    <div class="diagram">
+      <div class="flow">
+        <div class="box arrow">User/Donor<br>Submit Request</div>
+        <div class="box arrow">Admin<br>Reviews Request</div>
+        <div class="box arrow">Matching Donor<br>Notified</div>
+        <div class="box">Requester<br>Receives Status</div>
+      </div>
+    </div>
+
+    <h2>4.4 Database Design</h2>
+    <p>
+      The backend automatically creates the required database and tables when the server
+      starts. The main tables are donors, blood_requests, users, blood_inventory,
+      chat_conversations and chat_messages.
+    </p>
+    <table>
+      <tr><th>Table</th><th>Purpose</th><th>Important Fields</th></tr>
+      <tr><td>users</td><td>Stores login accounts</td><td>fullName, username, phone, bloodGroup, role, passwordHash, status</td></tr>
+      <tr><td>donors</td><td>Stores searchable donor profiles</td><td>name, phone, bloodGroup, location, birthday, lastDonation</td></tr>
+      <tr><td>blood_requests</td><td>Stores request workflow</td><td>requester, bloodGroup, units, hospital, type, status, donorResponse</td></tr>
+      <tr><td>blood_inventory</td><td>Stores blood stock</td><td>bloodGroup, units, hospital, expiryDate, status</td></tr>
+      <tr><td>chat_conversations</td><td>Stores support threads</td><td>userName, userRole, subject, status, lastMessageAt</td></tr>
+      <tr><td>chat_messages</td><td>Stores chat messages</td><td>conversationId, senderName, senderRole, message</td></tr>
+    </table>
+
+    <h2>4.5 Main Screens</h2>
+    <ul>
+      <li>Home page with donor search and blood request actions.</li>
+      <li>Login and registration pages with user and donor account creation.</li>
+      <li>User dashboard for requests, donor search, profile and support.</li>
+      <li>Donor dashboard for profile, donations, requests and notifications.</li>
+      <li>Admin dashboard for donor, request, inventory, user and support management.</li>
+    </ul>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 5<br>Implementation</h1>
+    <h2>5.1 Project Structure</h2>
+    <table>
+      <tr><th>Path</th><th>Description</th></tr>
+      <tr><td>src/App.js</td><td>Main application controller and role-based navigation guard.</td></tr>
+      <tr><td>src/pages</td><td>Full screen pages for public, auth, user, donor and admin modules.</td></tr>
+      <tr><td>src/components</td><td>Reusable UI components such as forms, layout, metric cards and status badges.</td></tr>
+      <tr><td>src/services/api.js</td><td>Shared API helper for frontend requests.</td></tr>
+      <tr><td>src/data/navigation.js</td><td>Sidebar menu definitions for admin, donor and user.</td></tr>
+      <tr><td>server.js</td><td>Express backend, database setup, API routes and business logic.</td></tr>
+    </table>
+
+    <h2>5.2 Frontend Implementation</h2>
+    <p>
+      The frontend is implemented with React. The main App component stores the active
+      screen and current logged-in user. Protected screens such as admin, donor, user,
+      request, donors and profile are guarded. Guests are redirected to login before
+      opening protected pages.
+    </p>
+    <p>
+      The user interface is separated into pages and reusable components. DashboardLayout
+      provides sidebar navigation for role-based dashboards. StatusBadge displays status
+      values such as Pending, Approved, Accepted, Rejected, Available and Expired.
+    </p>
+
+    <h2>5.3 Backend Implementation</h2>
+    <p>
+      The backend uses Express.js. It loads database configuration from environment
+      variables and creates a MySQL connection pool. On startup, it creates missing
+      database tables and ensures that a default admin account is available.
+    </p>
+    <div class="code">Main API groups:
+/api/auth/register
+/api/auth/login
+/api/auth/change-password
+/api/donors
+/api/requests
+/api/inventory
+/api/users
+/api/admins
+/api/chat/conversations</div>
+
+    <h2>5.4 Authentication and Security</h2>
+    <p>
+      User passwords are not returned to the frontend. The backend stores passwordHash
+      and passwordSalt values generated with PBKDF2. The sanitizeUser function removes
+      password related fields before sending account data to the client.
+    </p>
+
+    <h2>5.5 Donor Management Module</h2>
+    <p>
+      Administrators can add donor records with name, phone, blood group, location,
+      birthday, last donation, username and password. The system also includes a donor
+      credential generator based on donor name and birthday. Donor records are searchable
+      using ID, name, phone, blood group and location.
+    </p>
+
+    <h2>5.6 Blood Request Module</h2>
+    <p>
+      Users, donors and admins can create blood requests. Request fields include requester,
+      blood group, units, hospital, type and status. Admins can analyse requests, find
+      matching donors, send notification status and update donor response status.
+    </p>
+
+    <h2>5.7 Blood Inventory and Expiry Alerts</h2>
+    <p>
+      The inventory module records blood group, unit count, hospital, expiry date and
+      status. The backend checks expiry dates and marks expired items. The admin dashboard
+      shows expiry alerts for stock that is expired or close to expiry.
+    </p>
+
+    <h2>5.8 Chat Support Module</h2>
+    <p>
+      The chat module allows guests, users and donors to start support conversations.
+      Administrators can view support inbox messages, reply to conversations and close
+      conversations. Chat messages are stored in the database with sender details and
+      timestamps.
+    </p>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 6<br>Testing</h1>
+    <h2>6.1 Testing Approach</h2>
+    <p>
+      Testing was planned around major workflows. Each module was checked by entering
+      valid and invalid data, submitting forms, verifying database records and confirming
+      that screens show the expected output.
+    </p>
+
+    <h2>6.2 Test Cases</h2>
+    <table>
+      <tr><th>No</th><th>Test Case</th><th>Expected Result</th><th>Status</th></tr>
+      <tr><td>1</td><td>User registration with required details</td><td>Account is created and stored in users table</td><td>Pass</td></tr>
+      <tr><td>2</td><td>Login with valid username and password</td><td>User is redirected to correct role dashboard</td><td>Pass</td></tr>
+      <tr><td>3</td><td>Login with wrong password</td><td>Error message is returned</td><td>Pass</td></tr>
+      <tr><td>4</td><td>Add donor from admin dashboard</td><td>Donor record appears in donor list</td><td>Pass</td></tr>
+      <tr><td>5</td><td>Search donors by blood group</td><td>Matching donor records are displayed</td><td>Pass</td></tr>
+      <tr><td>6</td><td>Create blood request</td><td>Request is saved and shown in request records</td><td>Pass</td></tr>
+      <tr><td>7</td><td>Notify matching donor</td><td>Notification status changes to Sent</td><td>Pass</td></tr>
+      <tr><td>8</td><td>Donor accepts or rejects request</td><td>Donor response is updated</td><td>Pass</td></tr>
+      <tr><td>9</td><td>Add expired inventory date</td><td>Status becomes Expired</td><td>Pass</td></tr>
+      <tr><td>10</td><td>Start chat support conversation</td><td>Conversation and first message are stored</td><td>Pass</td></tr>
+    </table>
+
+    <h2>6.3 Validation Testing</h2>
+    <p>
+      Forms require important fields such as full name, username, password, donor phone,
+      blood group, location, hospital and expiry date. Phone number validation checks that
+      phone numbers contain exactly ten digits. Password changes require a minimum length
+      of eight characters.
+    </p>
+
+    <h2>6.4 Result</h2>
+    <p>
+      The tested workflows satisfy the main project requirements. The application supports
+      role-based navigation, data storage, request tracking, donor coordination, inventory
+      expiry handling and support messaging.
+    </p>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Chapter 7<br>Conclusion and Future Enhancement</h1>
+    <h2>7.1 Conclusion</h2>
+    <p>
+      The Blood Donation System successfully provides a web-based solution for organizing
+      blood donation activities. It reduces manual record keeping by storing donors,
+      users, requests, inventory and support conversations in a MySQL database. The
+      role-based dashboards make the system easier to use for administrators, donors and
+      normal users.
+    </p>
+    <p>
+      The project demonstrates practical use of React, Express.js, Node.js and MySQL.
+      It also includes important application features such as password hashing, profile
+      management, donor matching, request notifications and expiry alerts.
+    </p>
+
+    <h2>7.2 Limitations</h2>
+    <ul>
+      <li>The system currently uses dashboard notifications instead of SMS or email delivery.</li>
+      <li>Hospital accounts are not implemented as a separate role.</li>
+      <li>Location matching is text-based and does not use maps or distance calculation.</li>
+      <li>Advanced analytics and printable admin reports are not fully automated.</li>
+    </ul>
+
+    <h2>7.3 Future Enhancements</h2>
+    <ul>
+      <li>Add SMS and email notifications for urgent blood requests.</li>
+      <li>Add hospital role with hospital-specific request and stock management.</li>
+      <li>Integrate map-based donor search using location distance.</li>
+      <li>Add PDF report generation for donor lists, request history and inventory reports.</li>
+      <li>Add appointment scheduling for blood donation campaigns.</li>
+      <li>Deploy the project to a cloud server for real-world access.</li>
+    </ul>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">References</h1>
+    <ol>
+      <li>React Documentation - Component based frontend development.</li>
+      <li>Express.js Documentation - Web application framework for Node.js.</li>
+      <li>MySQL Documentation - Relational database management system.</li>
+      <li>Node.js Documentation - JavaScript runtime environment.</li>
+      <li>Project source files: Blood Donation System, local workspace implementation.</li>
+    </ol>
+  </section>
+
+  <section class="page">
+    <h1 class="chapter-title">Appendix</h1>
+    <h2>Appendix A: Environment Variables</h2>
+    <div class="code">MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=your_mysql_password
+MYSQL_DATABASE=blood_donation_system
+ADMIN_NAME=Blood Bridge Admin
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin123
+PORT=5000</div>
+
+    <h2>Appendix B: Run Commands</h2>
+    <div class="code">npm install
+npm run server
+npm start
+npm run build</div>
+
+    <h2>Appendix C: Important Project Files</h2>
+    <table>
+      <tr><th>File</th><th>Purpose</th></tr>
+      <tr><td>server.js</td><td>Backend API, MySQL schema setup and route handling</td></tr>
+      <tr><td>src/App.js</td><td>Frontend navigation and role guard</td></tr>
+      <tr><td>src/pages/admin/AdminDashboard.jsx</td><td>Admin management screens</td></tr>
+      <tr><td>src/pages/donor/DonorDashboard.jsx</td><td>Donor dashboard screens</td></tr>
+      <tr><td>src/pages/user/UserDashboard.jsx</td><td>User dashboard screens</td></tr>
+      <tr><td>src/data/navigation.js</td><td>Admin, donor and user menu items</td></tr>
+    </table>
+  </section>
+</body>
+</html>

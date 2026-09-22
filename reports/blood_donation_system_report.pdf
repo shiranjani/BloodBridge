@@ -1,0 +1,585 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R] /Count 18 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+5 0 obj
+<< /Length 829 >>
+stream
+BT /F2 18 Tf 237.16 777.89 Td (Project Report) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Blood Donation System) Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (Submitted in partial fulfillment of the requirements for the project work) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (Project Type: Web Based Blood Donation Management System) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (Submitted By) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (Name: __________________________) Tj ET
+BT /F1 11 Tf 54.00 671.89 Td (Registration No: ________________) Tj ET
+BT /F1 11 Tf 54.00 655.89 Td (Department: _____________________) Tj ET
+BT /F1 11 Tf 54.00 639.89 Td (Submitted To) Tj ET
+BT /F1 11 Tf 54.00 623.89 Td (Lecturer/Supervisor: _____________) Tj ET
+BT /F1 11 Tf 54.00 607.89 Td (Institution: _____________________) Tj ET
+BT /F1 11 Tf 54.00 591.89 Td (Academic Year: 2026) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1039 >>
+stream
+BT /F2 18 Tf 250.12 777.89 Td (Certificate) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (This is to certify that the project report titled "Blood Donation System") Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (is a bonafide work carried out as part of the academic project requirement. The system) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (has been developed using React, Express.js, Node.js and MySQL to support donor) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (registration, blood request handling, donor matching, inventory tracking and support) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (communication.) Tj ET
+BT /F1 11 Tf 54.00 671.89 Td (The report explains the analysis, design, implementation, testing and conclusion of) Tj ET
+BT /F1 11 Tf 54.00 655.89 Td (the project. The work presented in this document is based on the project files and) Tj ET
+BT /F1 11 Tf 54.00 639.89 Td (implementation available in the Blood Donation System application.) Tj ET
+BT /F1 11 Tf 54.00 623.89 Td (Project Guide / Supervisor) Tj ET
+BT /F1 11 Tf 54.00 607.89 Td (Head of Department) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 920 >>
+stream
+BT /F2 18 Tf 250.12 777.89 Td (Declaration) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (I hereby declare that this project report entitled "Blood Donation System") Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (has been prepared by me based on the software project developed for managing blood) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (donation related activities. The information, diagrams and explanations included in) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (this report are written for academic documentation purposes.) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (The project aims to provide a simple and organized platform where users can request) Tj ET
+BT /F1 11 Tf 54.00 671.89 Td (blood, donors can manage donation activity, and administrators can coordinate donors,) Tj ET
+BT /F1 11 Tf 54.00 655.89 Td (requests, inventory and support messages.) Tj ET
+BT /F1 11 Tf 54.00 639.89 Td (Student Signature) Tj ET
+BT /F1 11 Tf 54.00 623.89 Td (Date) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 877 >>
+stream
+BT /F2 18 Tf 232.84 777.89 Td (Acknowledgement) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (I would like to express my sincere gratitude to my project guide, teachers and) Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (institution for providing guidance and encouragement throughout the development of) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (this project. Their support helped in understanding the real-life importance of blood) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (donation systems and in converting that idea into a working web application.) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (I also thank my friends and family members for their motivation during the project) Tj ET
+BT /F1 11 Tf 54.00 671.89 Td (development period. This project improved my practical knowledge of frontend) Tj ET
+BT /F1 11 Tf 54.00 655.89 Td (development, backend API creation, database handling and project documentation.) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 1673 >>
+stream
+BT /F2 18 Tf 263.08 777.89 Td (Abstract) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Blood donation is a critical healthcare support activity. In emergency situations,) Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (patients and hospitals often need to find suitable blood donors quickly. Manual donor) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (records, phone-based coordination and unorganized request tracking can delay this) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (process. The Blood Donation System is developed to reduce these difficulties by) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (providing a web-based platform for donors, users and administrators.) Tj ET
+BT /F1 11 Tf 54.00 671.89 Td (The system allows users to register, login, request blood, track request status and) Tj ET
+BT /F1 11 Tf 54.00 655.89 Td (search for donors. Donors can update their profile, view assigned requests, respond) Tj ET
+BT /F1 11 Tf 54.00 639.89 Td (to notifications and check donation activity. Administrators can manage donor records,) Tj ET
+BT /F1 11 Tf 54.00 623.89 Td (approve and monitor blood requests, notify matching donors, maintain blood inventory,) Tj ET
+BT /F1 11 Tf 54.00 607.89 Td (view expiry alerts, list user accounts and handle chat support conversations.) Tj ET
+BT /F1 11 Tf 54.00 591.89 Td (The project uses React for the frontend interface, Express.js and Node.js for backend) Tj ET
+BT /F1 11 Tf 54.00 575.89 Td (APIs, and MySQL for persistent data storage. Passwords are stored using salted hashes.) Tj ET
+BT /F1 11 Tf 54.00 559.89 Td (The system also includes validation, role-based navigation and automatic expiry status) Tj ET
+BT /F1 11 Tf 54.00 543.89 Td (handling for blood inventory.) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 1103 >>
+stream
+BT /F2 18 Tf 224.20 777.89 Td (Table of Contents) Tj ET
+BT /F2 15 Tf 54.00 745.89 Td (Certificate i) Tj ET
+BT /F2 15 Tf 54.00 716.89 Td (Declaration ii) Tj ET
+BT /F2 15 Tf 54.00 687.89 Td (Acknowledgement iii) Tj ET
+BT /F2 15 Tf 54.00 658.89 Td (Abstract iv) Tj ET
+BT /F2 18 Tf 185.32 629.89 Td (Chapter 1 - Introduction 1) Tj ET
+BT /F2 15 Tf 54.00 597.89 Td (1.1 Introduction 1) Tj ET
+BT /F2 15 Tf 54.00 568.89 Td (1.2 Problem Statement 2) Tj ET
+BT /F2 15 Tf 54.00 539.89 Td (1.3 Objectives 2) Tj ET
+BT /F2 15 Tf 54.00 510.89 Td (1.4 Scope of the Project 3) Tj ET
+BT /F2 18 Tf 77.32 481.89 Td (Chapter 2 - Literature Review and Existing System 4) Tj ET
+BT /F2 18 Tf 172.36 449.89 Td (Chapter 3 - System Analysis 7) Tj ET
+BT /F2 18 Tf 176.68 417.89 Td (Chapter 4 - System Design 12) Tj ET
+BT /F2 18 Tf 172.36 385.89 Td (Chapter 5 - Implementation 18) Tj ET
+BT /F2 18 Tf 202.60 353.89 Td (Chapter 6 - Testing 25) Tj ET
+BT /F2 18 Tf 90.28 321.89 Td (Chapter 7 - Conclusion and Future Enhancement 29) Tj ET
+BT /F2 15 Tf 54.00 289.89 Td (References 31) Tj ET
+BT /F2 15 Tf 54.00 260.89 Td (Appendix 32) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 3476 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 1) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Introduction) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (1.1 Introduction) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (Blood is an essential medical resource required during surgeries, accidents,) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (childbirth complications, cancer treatments and many emergency cases. A successful) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (blood donation process depends on the availability of donors, accurate donor details,) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (quick communication and proper tracking of requests.) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (The Blood Donation System is a web application named Blood Bridge. It connects) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (patients, normal users, donors, hospitals and administrators through a single) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (organized platform. The application provides public pages, login and registration,) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (donor search, blood request forms, admin dashboards and support chat features.) Tj ET
+BT /F2 15 Tf 54.00 572.89 Td (1.2 Problem Statement) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (In many situations, blood donor information is maintained manually or through) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (scattered contact lists. This creates problems such as outdated donor records,) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (delayed donor matching, lack of request status visibility, poor inventory tracking) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (and difficulty in contacting the responsible administrator. These problems become) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (serious during emergency blood requirements.) Tj ET
+BT /F2 15 Tf 54.00 463.89 Td (1.3 Objectives) Tj ET
+BT /F1 11 Tf 54.00 440.89 Td (- To develop a web-based platform for managing donors, users and administrators.) Tj ET
+BT /F1 11 Tf 54.00 424.89 Td (- To allow users and donors to submit normal or emergency blood requests.) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (- To help administrators match requests with suitable donors based on blood group.) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (- To maintain blood inventory with units, hospitals, status and expiry dates.) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (- To provide notifications for donor responses and inventory expiry alerts.) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (- To provide chat support between users/donors and administrators.) Tj ET
+BT /F2 15 Tf 54.00 338.89 Td (1.4 Scope of the Project) Tj ET
+BT /F1 11 Tf 54.00 315.89 Td (The scope of this project includes user registration, donor registration, role-based) Tj ET
+BT /F1 11 Tf 54.00 299.89 Td (login, donor search, blood request submission, admin request management, donor) Tj ET
+BT /F1 11 Tf 54.00 283.89 Td (notification handling, blood inventory maintenance, expiry alerts, profile updates,) Tj ET
+BT /F1 11 Tf 54.00 267.89 Td (password changes and support conversations.) Tj ET
+BT /F2 15 Tf 54.00 245.89 Td (1.5 Technologies Used) Tj ET
+BT /F1 11 Tf 54.00 222.89 Td (Layer Technology Purpose) Tj ET
+BT /F1 11 Tf 54.00 206.89 Td (Frontend React, React Icons, CSS User interface and dashboards) Tj ET
+BT /F1 11 Tf 54.00 190.89 Td (Backend Node.js, Express.js REST API and business logic) Tj ET
+BT /F1 11 Tf 54.00 174.89 Td (Database MySQL Persistent storage) Tj ET
+BT /F1 11 Tf 54.00 158.89 Td (Security Crypto PBKDF2 hashing Password hashing with salt) Tj ET
+BT /F1 11 Tf 54.00 142.89 Td (Configuration dotenv Environment based settings) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 3628 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 2) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Literature Review and Existing System) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (2.1 Literature Review) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (Healthcare management systems are designed to improve speed, accuracy and reliability) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (in medical services. Blood donation management is one of the important areas where) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (digital systems can reduce delays. A computerized system can store donor details,) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (search donors by blood group and location, track requests and notify responsible) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (users.) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (Modern web applications usually use a frontend framework, backend API and relational) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (database. This separation improves maintainability. React helps create reusable) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (components and dashboards, Express.js supports API endpoints and MySQL provides) Tj ET
+BT /F1 11 Tf 54.00 578.89 Td (structured storage for donor, request, inventory and account records.) Tj ET
+BT /F2 15 Tf 54.00 556.89 Td (2.2 Existing System) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (In a manual blood donation process, donor details may be stored in notebooks,) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (spreadsheets or phone contacts. When a request arrives, the administrator must) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (manually search for donors and call them individually. Request status may not be) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (visible to the requester, and inventory expiry may be missed if records are not) Tj ET
+BT /F1 11 Tf 54.00 469.89 Td (checked regularly.) Tj ET
+BT /F2 15 Tf 54.00 447.89 Td (2.3 Disadvantages of Existing System) Tj ET
+BT /F1 11 Tf 54.00 424.89 Td (- Donor records can become outdated or duplicated.) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (- Searching donors manually takes more time.) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (- Users cannot easily track their request status.) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (- Inventory expiry dates are difficult to monitor manually.) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (- Communication between donor, user and admin is not centralized.) Tj ET
+BT /F1 11 Tf 54.00 344.89 Td (- Manual records are less secure and more difficult to back up.) Tj ET
+BT /F2 15 Tf 54.00 322.89 Td (2.4 Proposed System) Tj ET
+BT /F1 11 Tf 54.00 299.89 Td (The proposed Blood Donation System provides an online interface for all major roles.) Tj ET
+BT /F1 11 Tf 54.00 283.89 Td (Users can request blood and search donors. Donors can manage profiles and respond to) Tj ET
+BT /F1 11 Tf 54.00 267.89 Td (assigned requests. Administrators can create donor accounts, approve requests, notify) Tj ET
+BT /F1 11 Tf 54.00 251.89 Td (matching donors, update request progress, maintain blood stock and communicate through) Tj ET
+BT /F1 11 Tf 54.00 235.89 Td (chat support.) Tj ET
+BT /F2 15 Tf 54.00 213.89 Td (2.5 Advantages of Proposed System) Tj ET
+BT /F1 11 Tf 54.00 190.89 Td (- Centralized MySQL database for donor, user, request and inventory data.) Tj ET
+BT /F1 11 Tf 54.00 174.89 Td (- Role-based dashboards for admin, donor and user.) Tj ET
+BT /F1 11 Tf 54.00 158.89 Td (- Faster donor matching using blood group and donor records.) Tj ET
+BT /F1 11 Tf 54.00 142.89 Td (- Inventory expiry alerts for expired or soon-expiring stock.) Tj ET
+BT /F1 11 Tf 54.00 126.89 Td (- Secure password storage using salted hash values.) Tj ET
+BT /F1 11 Tf 54.00 110.89 Td (- Support chat conversation history for user assistance.) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 3366 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 3) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (System Analysis) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (3.1 Requirement Analysis) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (Requirement analysis identifies what the system must perform and what conditions are) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (required for successful operation. The Blood Donation System has three main user) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (roles: admin, donor and user. Each role has separate permissions and dashboard) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (actions.) Tj ET
+BT /F2 15 Tf 54.00 636.89 Td (3.2 Functional Requirements) Tj ET
+BT /F1 11 Tf 54.00 613.89 Td (Module Functional Requirement) Tj ET
+BT /F1 11 Tf 54.00 597.89 Td (Authentication Register users/donors, login accounts, reset password and change) Tj ET
+BT /F1 11 Tf 54.00 581.89 Td (password.) Tj ET
+BT /F1 11 Tf 54.00 565.89 Td (User Module Create blood requests, view request status, find donors, update profile and) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (use support chat.) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (Donor Module Maintain donor profile, view notifications, respond to requests and check) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (donation activity.) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (Admin Module Manage donors, requests, users, blood inventory, expiry alerts and support) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (inbox.) Tj ET
+BT /F1 11 Tf 54.00 469.89 Td (Inventory Store blood group, units, hospital, expiry date and stock status.) Tj ET
+BT /F1 11 Tf 54.00 453.89 Td (Chat Support Create conversations, list messages, reply and close conversations.) Tj ET
+BT /F2 15 Tf 54.00 431.89 Td (3.3 Non Functional Requirements) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (- Usability: The interface should be simple for patients, donors and admins.) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (- Reliability: Data should be stored persistently in MySQL.) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (- Security: Passwords should not be stored in plain text.) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (- Maintainability: Frontend pages, components and backend routes should be separated.) Tj ET
+BT /F1 11 Tf 54.00 344.89 Td (- Performance: Common data should load through API calls and refresh where needed.) Tj ET
+BT /F1 11 Tf 54.00 328.89 Td (- Scalability: The structure should support adding more hospitals or notification) Tj ET
+BT /F1 11 Tf 54.00 312.89 Td (channels later.) Tj ET
+BT /F2 15 Tf 54.00 290.89 Td (3.4 Hardware Requirements) Tj ET
+BT /F1 11 Tf 54.00 267.89 Td (Component Minimum Requirement) Tj ET
+BT /F1 11 Tf 54.00 251.89 Td (Processor Intel Core i3 or equivalent) Tj ET
+BT /F1 11 Tf 54.00 235.89 Td (RAM 4 GB minimum, 8 GB recommended) Tj ET
+BT /F1 11 Tf 54.00 219.89 Td (Storage 500 MB free space for project and dependencies) Tj ET
+BT /F1 11 Tf 54.00 203.89 Td (Network Local network or internet connection for deployment) Tj ET
+BT /F2 15 Tf 54.00 181.89 Td (3.5 Software Requirements) Tj ET
+BT /F1 11 Tf 54.00 158.89 Td (Software Use) Tj ET
+BT /F1 11 Tf 54.00 142.89 Td (Node.js and npm Run frontend and backend project dependencies) Tj ET
+BT /F1 11 Tf 54.00 126.89 Td (MySQL Server Database server) Tj ET
+BT /F1 11 Tf 54.00 110.89 Td (Web Browser Access React application) Tj ET
+BT /F1 11 Tf 54.00 94.89 Td (Code Editor Edit and maintain project files) Tj ET
+BT /F2 15 Tf 54.00 72.89 Td (3.6 Feasibility Study) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 419 >>
+stream
+BT /F1 11 Tf 54.00 777.89 Td (The project is technically feasible because it uses common open-source web) Tj ET
+BT /F1 11 Tf 54.00 761.89 Td (technologies. It is operationally feasible because the modules match real blood) Tj ET
+BT /F1 11 Tf 54.00 745.89 Td (donation workflows. It is economically feasible because no expensive proprietary) Tj ET
+BT /F1 11 Tf 54.00 729.89 Td (tools are required for development.) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2993 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 4) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (System Design) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (4.1 System Architecture) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (The system follows a client-server architecture. The React frontend sends requests) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (to the Express backend. The backend validates input, applies business rules and) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (communicates with the MySQL database. API responses are returned as JSON and shown) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (in the user interface.) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (React Frontend) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (Pages and Components) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (Express API) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (Routes and Validation) Tj ET
+BT /F1 11 Tf 54.00 578.89 Td (Business Logic) Tj ET
+BT /F1 11 Tf 54.00 562.89 Td (Matching and Alerts) Tj ET
+BT /F1 11 Tf 54.00 546.89 Td (MySQL Database) Tj ET
+BT /F1 11 Tf 54.00 530.89 Td (Persistent Records) Tj ET
+BT /F2 15 Tf 54.00 508.89 Td (4.2 User Roles) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (Role Main Responsibilities) Tj ET
+BT /F1 11 Tf 54.00 469.89 Td (Admin Manage donors, requests, inventory, users, alerts and chat support.) Tj ET
+BT /F1 11 Tf 54.00 453.89 Td (Donor Maintain donor profile, view assigned requests and respond to notifications.) Tj ET
+BT /F1 11 Tf 54.00 437.89 Td (User Request blood, track own requests, search donors and contact support.) Tj ET
+BT /F1 11 Tf 54.00 421.89 Td (Guest View public pages, register, login and start limited support conversation.) Tj ET
+BT /F2 15 Tf 54.00 399.89 Td (4.3 Data Flow Diagram) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (User/Donor) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (Submit Request) Tj ET
+BT /F1 11 Tf 54.00 344.89 Td (Admin) Tj ET
+BT /F1 11 Tf 54.00 328.89 Td (Reviews Request) Tj ET
+BT /F1 11 Tf 54.00 312.89 Td (Matching Donor) Tj ET
+BT /F1 11 Tf 54.00 296.89 Td (Notified) Tj ET
+BT /F1 11 Tf 54.00 280.89 Td (Requester) Tj ET
+BT /F1 11 Tf 54.00 264.89 Td (Receives Status) Tj ET
+BT /F2 15 Tf 54.00 242.89 Td (4.4 Database Design) Tj ET
+BT /F1 11 Tf 54.00 219.89 Td (The backend automatically creates the required database and tables when the server) Tj ET
+BT /F1 11 Tf 54.00 203.89 Td (starts. The main tables are donors, blood_requests, users, blood_inventory,) Tj ET
+BT /F1 11 Tf 54.00 187.89 Td (chat_conversations and chat_messages.) Tj ET
+BT /F1 11 Tf 54.00 171.89 Td (Table Purpose Important Fields) Tj ET
+BT /F1 11 Tf 54.00 155.89 Td (users Stores login accounts fullName, username, phone, bloodGroup, role, passwordHash,) Tj ET
+BT /F1 11 Tf 54.00 139.89 Td (status) Tj ET
+BT /F1 11 Tf 54.00 123.89 Td (donors Stores searchable donor profiles name, phone, bloodGroup, location, birthday,) Tj ET
+BT /F1 11 Tf 54.00 107.89 Td (lastDonation) Tj ET
+BT /F1 11 Tf 54.00 91.89 Td (blood_requests Stores request workflow requester, bloodGroup, units, hospital, type,) Tj ET
+BT /F1 11 Tf 54.00 75.89 Td (status, donorResponse) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 985 >>
+stream
+BT /F1 11 Tf 54.00 777.89 Td (blood_inventory Stores blood stock bloodGroup, units, hospital, expiryDate, status) Tj ET
+BT /F1 11 Tf 54.00 761.89 Td (chat_conversations Stores support threads userName, userRole, subject, status,) Tj ET
+BT /F1 11 Tf 54.00 745.89 Td (lastMessageAt) Tj ET
+BT /F1 11 Tf 54.00 729.89 Td (chat_messages Stores chat messages conversationId, senderName, senderRole, message) Tj ET
+BT /F2 15 Tf 54.00 707.89 Td (4.5 Main Screens) Tj ET
+BT /F1 11 Tf 54.00 684.89 Td (- Home page with donor search and blood request actions.) Tj ET
+BT /F1 11 Tf 54.00 668.89 Td (- Login and registration pages with user and donor account creation.) Tj ET
+BT /F1 11 Tf 54.00 652.89 Td (- User dashboard for requests, donor search, profile and support.) Tj ET
+BT /F1 11 Tf 54.00 636.89 Td (- Donor dashboard for profile, donations, requests and notifications.) Tj ET
+BT /F1 11 Tf 54.00 620.89 Td (- Admin dashboard for donor, request, inventory, user and support management.) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 3400 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 5) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Implementation) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (5.1 Project Structure) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (Path Description) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (src/App.js Main application controller and role-based navigation guard.) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (src/pages Full screen pages for public, auth, user, donor and admin modules.) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (src/components Reusable UI components such as forms, layout, metric cards and status) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (badges.) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (src/services/api.js Shared API helper for frontend requests.) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (src/data/navigation.js Sidebar menu definitions for admin, donor and user.) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (server.js Express backend, database setup, API routes and business logic.) Tj ET
+BT /F2 15 Tf 54.00 572.89 Td (5.2 Frontend Implementation) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (The frontend is implemented with React. The main App component stores the active) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (screen and current logged-in user. Protected screens such as admin, donor, user,) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (request, donors and profile are guarded. Guests are redirected to login before) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (opening protected pages.) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (The user interface is separated into pages and reusable components. DashboardLayout) Tj ET
+BT /F1 11 Tf 54.00 469.89 Td (provides sidebar navigation for role-based dashboards. StatusBadge displays status) Tj ET
+BT /F1 11 Tf 54.00 453.89 Td (values such as Pending, Approved, Accepted, Rejected, Available and Expired.) Tj ET
+BT /F2 15 Tf 54.00 431.89 Td (5.3 Backend Implementation) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (The backend uses Express.js. It loads database configuration from environment) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (variables and creates a MySQL connection pool. On startup, it creates missing) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (database tables and ensures that a default admin account is available.) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (Main API groups:) Tj ET
+BT /F1 11 Tf 54.00 344.89 Td (/api/auth/register) Tj ET
+BT /F1 11 Tf 54.00 328.89 Td (/api/auth/login) Tj ET
+BT /F1 11 Tf 54.00 312.89 Td (/api/auth/change-password) Tj ET
+BT /F1 11 Tf 54.00 296.89 Td (/api/donors) Tj ET
+BT /F1 11 Tf 54.00 280.89 Td (/api/requests) Tj ET
+BT /F1 11 Tf 54.00 264.89 Td (/api/inventory) Tj ET
+BT /F1 11 Tf 54.00 248.89 Td (/api/users) Tj ET
+BT /F1 11 Tf 54.00 232.89 Td (/api/admins) Tj ET
+BT /F1 11 Tf 54.00 216.89 Td (/api/chat/conversations) Tj ET
+BT /F2 15 Tf 54.00 194.89 Td (5.4 Authentication and Security) Tj ET
+BT /F1 11 Tf 54.00 171.89 Td (User passwords are not returned to the frontend. The backend stores passwordHash) Tj ET
+BT /F1 11 Tf 54.00 155.89 Td (and passwordSalt values generated with PBKDF2. The sanitizeUser function removes) Tj ET
+BT /F1 11 Tf 54.00 139.89 Td (password related fields before sending account data to the client.) Tj ET
+BT /F2 15 Tf 54.00 117.89 Td (5.5 Donor Management Module) Tj ET
+BT /F1 11 Tf 54.00 94.89 Td (Administrators can add donor records with name, phone, blood group, location,) Tj ET
+BT /F1 11 Tf 54.00 78.89 Td (birthday, last donation, username and password. The system also includes a donor) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 1501 >>
+stream
+BT /F1 11 Tf 54.00 777.89 Td (credential generator based on donor name and birthday. Donor records are searchable) Tj ET
+BT /F1 11 Tf 54.00 761.89 Td (using ID, name, phone, blood group and location.) Tj ET
+BT /F2 15 Tf 54.00 739.89 Td (5.6 Blood Request Module) Tj ET
+BT /F1 11 Tf 54.00 716.89 Td (Users, donors and admins can create blood requests. Request fields include requester,) Tj ET
+BT /F1 11 Tf 54.00 700.89 Td (blood group, units, hospital, type and status. Admins can analyse requests, find) Tj ET
+BT /F1 11 Tf 54.00 684.89 Td (matching donors, send notification status and update donor response status.) Tj ET
+BT /F2 15 Tf 54.00 662.89 Td (5.7 Blood Inventory and Expiry Alerts) Tj ET
+BT /F1 11 Tf 54.00 639.89 Td (The inventory module records blood group, unit count, hospital, expiry date and) Tj ET
+BT /F1 11 Tf 54.00 623.89 Td (status. The backend checks expiry dates and marks expired items. The admin dashboard) Tj ET
+BT /F1 11 Tf 54.00 607.89 Td (shows expiry alerts for stock that is expired or close to expiry.) Tj ET
+BT /F2 15 Tf 54.00 585.89 Td (5.8 Chat Support Module) Tj ET
+BT /F1 11 Tf 54.00 562.89 Td (The chat module allows guests, users and donors to start support conversations.) Tj ET
+BT /F1 11 Tf 54.00 546.89 Td (Administrators can view support inbox messages, reply to conversations and close) Tj ET
+BT /F1 11 Tf 54.00 530.89 Td (conversations. Chat messages are stored in the database with sender details and) Tj ET
+BT /F1 11 Tf 54.00 514.89 Td (timestamps.) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2614 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 6) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Testing) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (6.1 Testing Approach) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (Testing was planned around major workflows. Each module was checked by entering) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (valid and invalid data, submitting forms, verifying database records and confirming) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (that screens show the expected output.) Tj ET
+BT /F2 15 Tf 54.00 652.89 Td (6.2 Test Cases) Tj ET
+BT /F1 11 Tf 54.00 629.89 Td (No Test Case Expected Result Status) Tj ET
+BT /F1 11 Tf 54.00 613.89 Td (1 User registration with required details Account is created and stored in users table) Tj ET
+BT /F1 11 Tf 54.00 597.89 Td (Pass) Tj ET
+BT /F1 11 Tf 54.00 581.89 Td (2 Login with valid username and password User is redirected to correct role dashboard) Tj ET
+BT /F1 11 Tf 54.00 565.89 Td (Pass) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (3 Login with wrong password Error message is returned Pass) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (4 Add donor from admin dashboard Donor record appears in donor list Pass) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (5 Search donors by blood group Matching donor records are displayed Pass) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (6 Create blood request Request is saved and shown in request records Pass) Tj ET
+BT /F1 11 Tf 54.00 485.89 Td (7 Notify matching donor Notification status changes to Sent Pass) Tj ET
+BT /F1 11 Tf 54.00 469.89 Td (8 Donor accepts or rejects request Donor response is updated Pass) Tj ET
+BT /F1 11 Tf 54.00 453.89 Td (9 Add expired inventory date Status becomes Expired Pass) Tj ET
+BT /F1 11 Tf 54.00 437.89 Td (10 Start chat support conversation Conversation and first message are stored Pass) Tj ET
+BT /F2 15 Tf 54.00 415.89 Td (6.3 Validation Testing) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (Forms require important fields such as full name, username, password, donor phone,) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (blood group, location, hospital and expiry date. Phone number validation checks that) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (phone numbers contain exactly ten digits. Password changes require a minimum length) Tj ET
+BT /F1 11 Tf 54.00 344.89 Td (of eight characters.) Tj ET
+BT /F2 15 Tf 54.00 322.89 Td (6.4 Result) Tj ET
+BT /F1 11 Tf 54.00 299.89 Td (The tested workflows satisfy the main project requirements. The application supports) Tj ET
+BT /F1 11 Tf 54.00 283.89 Td (role-based navigation, data storage, request tracking, donor coordination, inventory) Tj ET
+BT /F1 11 Tf 54.00 267.89 Td (expiry handling and support messaging.) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2219 >>
+stream
+BT /F2 18 Tf 258.76 777.89 Td (Chapter 7) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (Conclusion and Future Enhancement) Tj ET
+BT /F2 15 Tf 54.00 729.89 Td (7.1 Conclusion) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (The Blood Donation System successfully provides a web-based solution for organizing) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (blood donation activities. It reduces manual record keeping by storing donors,) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (users, requests, inventory and support conversations in a MySQL database. The) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (role-based dashboards make the system easier to use for administrators, donors and) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (normal users.) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (The project demonstrates practical use of React, Express.js, Node.js and MySQL.) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (It also includes important application features such as password hashing, profile) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (management, donor matching, request notifications and expiry alerts.) Tj ET
+BT /F2 15 Tf 54.00 572.89 Td (7.2 Limitations) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (- The system currently uses dashboard notifications instead of SMS or email delivery.) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (- Hospital accounts are not implemented as a separate role.) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (- Location matching is text-based and does not use maps or distance calculation.) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (- Advanced analytics and printable admin reports are not fully automated.) Tj ET
+BT /F2 15 Tf 54.00 479.89 Td (7.3 Future Enhancements) Tj ET
+BT /F1 11 Tf 54.00 456.89 Td (- Add SMS and email notifications for urgent blood requests.) Tj ET
+BT /F1 11 Tf 54.00 440.89 Td (- Add hospital role with hospital-specific request and stock management.) Tj ET
+BT /F1 11 Tf 54.00 424.89 Td (- Integrate map-based donor search using location distance.) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (- Add PDF report generation for donor lists, request history and inventory reports.) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (- Add appointment scheduling for blood donation campaigns.) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (- Deploy the project to a cloud server for real-world access.) Tj ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 563 >>
+stream
+BT /F2 18 Tf 254.44 777.89 Td (References) Tj ET
+BT /F1 11 Tf 54.00 751.89 Td (- React Documentation - Component based frontend development.) Tj ET
+BT /F1 11 Tf 54.00 735.89 Td (- Express.js Documentation - Web application framework for Node.js.) Tj ET
+BT /F1 11 Tf 54.00 719.89 Td (- MySQL Documentation - Relational database management system.) Tj ET
+BT /F1 11 Tf 54.00 703.89 Td (- Node.js Documentation - JavaScript runtime environment.) Tj ET
+BT /F1 11 Tf 54.00 687.89 Td (- Project source files: Blood Donation System, local workspace implementation.) Tj ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 1604 >>
+stream
+BT /F2 18 Tf 263.08 777.89 Td (Appendix) Tj ET
+BT /F2 15 Tf 54.00 745.89 Td (Appendix A: Environment Variables) Tj ET
+BT /F1 11 Tf 54.00 722.89 Td (MYSQL_HOST=127.0.0.1) Tj ET
+BT /F1 11 Tf 54.00 706.89 Td (MYSQL_PORT=3306) Tj ET
+BT /F1 11 Tf 54.00 690.89 Td (MYSQL_USER=root) Tj ET
+BT /F1 11 Tf 54.00 674.89 Td (MYSQL_PASSWORD=your_mysql_password) Tj ET
+BT /F1 11 Tf 54.00 658.89 Td (MYSQL_DATABASE=blood_donation_system) Tj ET
+BT /F1 11 Tf 54.00 642.89 Td (ADMIN_NAME=Blood Bridge Admin) Tj ET
+BT /F1 11 Tf 54.00 626.89 Td (ADMIN_USERNAME=admin) Tj ET
+BT /F1 11 Tf 54.00 610.89 Td (ADMIN_PASSWORD=admin123) Tj ET
+BT /F1 11 Tf 54.00 594.89 Td (PORT=5000) Tj ET
+BT /F2 15 Tf 54.00 572.89 Td (Appendix B: Run Commands) Tj ET
+BT /F1 11 Tf 54.00 549.89 Td (npm install) Tj ET
+BT /F1 11 Tf 54.00 533.89 Td (npm run server) Tj ET
+BT /F1 11 Tf 54.00 517.89 Td (npm start) Tj ET
+BT /F1 11 Tf 54.00 501.89 Td (npm run build) Tj ET
+BT /F2 15 Tf 54.00 479.89 Td (Appendix C: Important Project Files) Tj ET
+BT /F1 11 Tf 54.00 456.89 Td (File Purpose) Tj ET
+BT /F1 11 Tf 54.00 440.89 Td (server.js Backend API, MySQL schema setup and route handling) Tj ET
+BT /F1 11 Tf 54.00 424.89 Td (src/App.js Frontend navigation and role guard) Tj ET
+BT /F1 11 Tf 54.00 408.89 Td (src/pages/admin/AdminDashboard.jsx Admin management screens) Tj ET
+BT /F1 11 Tf 54.00 392.89 Td (src/pages/donor/DonorDashboard.jsx Donor dashboard screens) Tj ET
+BT /F1 11 Tf 54.00 376.89 Td (src/pages/user/UserDashboard.jsx User dashboard screens) Tj ET
+BT /F1 11 Tf 54.00 360.89 Td (src/data/navigation.js Admin, donor and user menu items) Tj ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 39 0 R >>
+endobj
+xref
+0 41
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000234 00000 n 
+0000000306 00000 n 
+0000000377 00000 n 
+0000001257 00000 n 
+0000001399 00000 n 
+0000002490 00000 n 
+0000002632 00000 n 
+0000003603 00000 n 
+0000003746 00000 n 
+0000004675 00000 n 
+0000004819 00000 n 
+0000006545 00000 n 
+0000006689 00000 n 
+0000007845 00000 n 
+0000007989 00000 n 
+0000011518 00000 n 
+0000011662 00000 n 
+0000015343 00000 n 
+0000015487 00000 n 
+0000018906 00000 n 
+0000019050 00000 n 
+0000019521 00000 n 
+0000019665 00000 n 
+0000022711 00000 n 
+0000022855 00000 n 
+0000023892 00000 n 
+0000024036 00000 n 
+0000027489 00000 n 
+0000027633 00000 n 
+0000029187 00000 n 
+0000029331 00000 n 
+0000031998 00000 n 
+0000032142 00000 n 
+0000034414 00000 n 
+0000034558 00000 n 
+0000035173 00000 n 
+0000035317 00000 n 
+0000036974 00000 n 
+trailer
+<< /Size 41 /Root 1 0 R >>
+startxref
+37118
+%%EOF

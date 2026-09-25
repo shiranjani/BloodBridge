@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const mysql = require("mysql2/promise");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -905,6 +906,20 @@ app.patch(
     res.json(conversation);
   })
 );
+
+// Serve the React production build.
+const buildPath = path.join(__dirname, "build");
+
+app.use(express.static(buildPath));
+
+// Fallback for React Router routes.
+app.get("*", (req, res, next) => {
+  if (req.path.startsWith("/api/")) {
+    return next();
+  }
+
+  res.sendFile(path.join(buildPath, "index.html"));
+});
 
 // Fallback response for unknown API routes.
 app.use((req, res) => {
